@@ -4,3 +4,5 @@ class coche (vehiculo):
         vehiculo.__init__(self, color, ruedas)
         self.velocidad = velocidad
         self.cilindrada = cilindrada
+    def __str__(self):
+        return vehiculo.__str__(self) + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada)    
