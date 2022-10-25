@@ -3,4 +3,5 @@ from coche import*
 class camioneta(coche):
     def __init__(self, color, ruedas, velocidad, cilindrada, carga):
         #usamos la función "super()" para invocar y conservar un método o atributo de la clase de la que desciende o a la que asciende
-        
+        super().__init__(color, ruedas, velocidad, cilindrada)
+        self.carga = carga
