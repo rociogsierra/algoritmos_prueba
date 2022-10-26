@@ -1,5 +1,4 @@
-from class
-from class motocicleta import motocicleta camioneta import camioneta
+
 from vehiculo import*
 from coche import*
 from camioneta import*
