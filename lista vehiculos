@@ -1,7 +1,9 @@
+from class camioneta import camioneta
 from vehiculo import*
 from coche import*
 from camioneta import*
 from bicicleta import*
 from motocicleta import*
 
-ejemplo_coche = 
+c = coche("azul", 4, 150, 1200)
+cam = camioneta("rosa", 4,  )
