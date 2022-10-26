@@ -19,4 +19,8 @@ def catalogar(lista, numero_de_ruedas):
     numero = 0
     for i in lista:
         if numero_de_ruedas == i.ruedas:
-            
+            cantidad += 1
+        print("se han encontrado {} vehículos con {} ruedas").format(numero, numero_de_ruedas)
+catalogar(vehiculos)            
+
+
